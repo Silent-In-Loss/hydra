@@ -1,0 +1,9 @@
+.tarifs{
+  padding: 100px 0 100px 0;
+}
+
+.wrap{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}

@@ -1,0 +1,76 @@
+.introduction{
+    padding-top: 100px;
+}
+
+
+
+.first{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    .left{
+        h2{
+            color: white;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        .title{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            h2{
+                color: white;
+                font-size: 36px;
+                font-weight: 300;
+            }
+        }
+        
+    }
+    
+    .text{
+        max-width: 650px;
+        width: 100%;
+
+        p{
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+
+}
+
+.second{
+    display: flex;
+    align-items: center; 
+    padding: 100px 0 100px 0;   
+    gap: 100px;
+
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 45px;
+
+        h2{
+            color: white;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        .hydra{
+            color: white;
+            font-size: 36px;
+            font-weight: 300;
+        }
+
+        p{
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}

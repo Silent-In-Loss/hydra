@@ -1,0 +1,56 @@
+.level{
+  background-image: url(/lines.svg);
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: contain;
+
+  @media (max-width: 1024px) {
+    background-image: none;
+  }
+}
+
+.wrap{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  place-items: center;
+  margin: 100px 0;
+
+  button{
+    padding: 15px 20px 15px 20px;
+    bottom: -30px;
+    background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    border-radius: 50%;
+    outline: 15px solid #0e0e0e3e;
+    border: none;
+    display: none;
+  }
+}
+
+.card{
+
+  h2{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #343045;
+    font-size: 54px;
+    background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
+    border-radius: 50%;
+    outline: 15px solid #0E0E0E52;
+    border: none;
+
+    
+  }
+
+  p{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+}
+

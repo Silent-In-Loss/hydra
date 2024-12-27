@@ -1,43 +1,59 @@
 .nav{
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-    align-items: center;
-    padding-top: 50px;
+   display: flex;
+   justify-content: space-between;
+   gap: 15px;
+   align-items: center;
+   padding-top: 50px;
 }
 
 .logo{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
 }
 
 .menu{
-    display: flex;
-    gap: 40px;
+   display: flex;
+   gap: 40px;
 
-    a{
-        text-decoration: none;
-        color: #fff;
-        font-size: 12px;
-        font-weight: 500;
-        text-transform: uppercase;
-    }
+   a{
+      text-decoration: none;
+      color: white;
+      font-weight: 700;
+      font-size: 12px;
+   }
+
+   @media (max-width:990px) {
+      display: none;
+   }
 }
 
-.btn{
-    color: white;
-    background: none;
-    padding: 16px 38px;
-    border: 1px white solid;
-    border-radius: 40px;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    cursor: pointer;
+.burger{
+   display: none;
+   cursor: pointer;
+   @media (max-width:990px) {
+      display: block;
+   }
 }
 
 .btns{
-    display: flex;
-    gap: 40px;
+   display: flex;
+   gap: 40px;
+
+   @media (max-width:990px) {
+      display: none;
+   }
+}
+
+.btn{
+   background-color: transparent;
+   padding: 16px 37px;
+   color: white;
+   border: 1px solid white;
+   border-radius: 25px;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 12px;
+   border-radius: 25px;
+   cursor: pointer;
 }
